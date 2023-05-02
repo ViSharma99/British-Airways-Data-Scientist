@@ -1,5 +1,7 @@
 # British-Airways-Data-Scientist
 As a Data scientist for British Airways in a Virtual Experience Program.
+![image](https://user-images.githubusercontent.com/87997273/235679868-32589387-fccc-45de-a887-d9562d41c846.png)
+
 
 ## Task 1
 Situation: As part of my effort to improve the services of British Airways, I needed to know the insights and gather data on what aspects needed improvement.
