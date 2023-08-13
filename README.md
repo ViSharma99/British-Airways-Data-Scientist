@@ -9,6 +9,8 @@ Situation: As part of my effort to improve the services of British Airways, I ne
 Task: To accomplish this, I collected data from the Skytrax reviews website, which had the maximum number of reviews, amounting to around 3100. To make sense of this data, I implemented NLP techniques for better sentiment analysis.
 
 Action: After analyzing the data, I gained a comprehensive understanding of the statistics of the reviews and performed correlation analysis between the different features that affected negative reviews.
+![image](https://github.com/ViSharma99/British-Airways-Data-Scientist/assets/87997273/b5461ff3-9296-4bee-9002-3477b40579b4)
+
 
 Result: My analysis revealed that several aspects of British Airways' services needed improvement. Firstly, the food should be better, particularly for business class. Additionally, the inflight experience needs improvement in terms of comfort, entertainment options, and customer service. Moreover, many customers feel that the services offered by British Airways are not value for money, and the refund process is a hassle, which needs to be addressed. By implementing these changes, British Airways can significantly improve its services, enhancing the customer experience and ensuring customer loyalty.
 
@@ -21,6 +23,12 @@ Action: The model was trained and evaluated, and the following results were obta
 
     Test Accuracy: 85%
     AUC score: 0.558
+
+    ![image](https://github.com/ViSharma99/British-Airways-Data-Scientist/assets/87997273/94062c5a-b9ff-4934-9d97-81229c97a5bc)
+
+    
+![image](https://github.com/ViSharma99/British-Airways-Data-Scientist/assets/87997273/9d214286-84c7-422a-a629-c6e2aeee2813)
+
 
 Result: The analysis revealed that the top 5 features that influence customer buying behavior are:
 
