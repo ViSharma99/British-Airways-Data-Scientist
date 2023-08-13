@@ -20,11 +20,11 @@ Situation: As part of the analysis of customer buying behavior, a predictive mod
 Task: The goal was to identify the top 5 features that influence customer buying behavior.
 
 Action: The model was trained and evaluated, and the following results were obtained:
+    ![image](https://github.com/ViSharma99/British-Airways-Data-Scientist/assets/87997273/94062c5a-b9ff-4934-9d97-81229c97a5bc)
 
     Test Accuracy: 85%
     AUC score: 0.558
 
-    ![image](https://github.com/ViSharma99/British-Airways-Data-Scientist/assets/87997273/94062c5a-b9ff-4934-9d97-81229c97a5bc)
 
     
 ![image](https://github.com/ViSharma99/British-Airways-Data-Scientist/assets/87997273/9d214286-84c7-422a-a629-c6e2aeee2813)
@@ -32,10 +32,12 @@ Action: The model was trained and evaluated, and the following results were obta
 
 Result: The analysis revealed that the top 5 features that influence customer buying behavior are:
 
-    Route
-    Booking origin
+    Purchase_led - The duration between date of booking and date of flight departure
+    Flight Hour
     Flight duration
-    Wants extra baggage
-    Length of stay
+    Flight day
+    Length of stay (for the Round Trip)
 
-The predictive model developed using the Xgboost classifier algorithm demonstrated a good performance, achieving an accuracy of 85% on the test dataset. However, the AUC score of 0.558 indicates that the model's ability to distinguish between positive and negative cases is only slightly better than random chance. By considering the top 5 features identified in this analysis, businesses can gain insights into customer buying behavior and tailor their marketing strategies accordingly to improve their sales and customer retention.
+The predictive model developed using the Xgboost classifier algorithm demonstrated a good performance with the SMOTE for class minority sampling, achieving an accuracy of 85% on the test dataset. However, the AUC score of 0.558 indicates that the model's ability to distinguish between positive and negative cases is only slightly better than random chance. 
+By considering the top 5 features identified in this analysis, businesses can gain insights into customer buying behavior and tailor their marketing strategies accordingly to improve their sales and customer retention.
+
